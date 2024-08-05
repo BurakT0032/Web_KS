@@ -1,13 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>E-commerce Website Template (FREEBIE)</title>
+    <title>E-Commerce Website Template</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="gt.css">
 </head>
+
 <body>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-white bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#">SHOP.CO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Shop
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">On Sale</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New Arrivals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Brands</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search for products..." aria-label="Search">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/shop.png" alt="Bootstrap" width="18" height="18">
+                </a>
+            </div>
+        </nav>
+    </nav>
+
+  <!-- Hero Section -->
+<header class="hero-section text-center py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-left hero-content">
+                <h1 class="display-3">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+                <p class="lead">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
+                <a href="#" class="btn btn-dark btn-lg shop-now-btn">Shop Now</a>
+                <div class="d-flex justify-content-start mt-4 stats">
+                    <div class="stat-item">
+                        <h1 class="stat-title">200+</h1>
+                        <p class="stat-text">International Brands</p>
+                    </div>
+                    <div class="stat-item mx-4">
+                        <h1 class="stat-title">2,000+</h1>
+                        <p class="stat-text">High-Quality Products</p>
+                    </div>
+                    <div class="stat-item">
+                        <h1 class="stat-title">30,000+</h1>
+                        <p class="stat-text">Happy Customers</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-right hero-image">
+                <img src="images/rightimage.jpg" class="img-fluid" alt="Product Image">
+            </div>
+        </div>
+    </div>
+</header>
+
+
+    <!-- Bottom Navbar -->
+    <nav class="navbar navbar-expand-lg  bottom-navbar navbar-section">
+        <div class="container">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/vers.jpg" alt="Versace" class="brand-logo"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/zara.jpg" alt="Zara" class="brand-logo"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/gucci.jpg" alt="Gucci" class="brand-logo"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/prada.jpg" alt="Prada" class="brand-logo"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><img src="images/calv.jpg" alt="Calvin Klein" class="brand-logo"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     
+    
+    
+    
+
+    <!-- New Arrivals Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">NEW ARRIVALS</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/tape_Det.jpg" class="card-img-top" alt="T-shirt with Tape Details">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">T-shirt with Tape Details</h5>
+                            <p class="card-text">$120</p>
+                            <p class="card-rating">4.5 <span class="text-warning">★</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/skinny.jpg" class="card-img-top" alt="Skinny Fit Jeans">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Skinny Fit Jeans</h5>
+                            <p class="card-text"><s>$260</s> $240 <span class="discount-box">20% off</span></p>
+                            <p class="card-rating">3.5 <span class="text-warning">★</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/3.jpg" class="card-img-top" alt="Checkered Shirt">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Checkered Shirt</h5>
+                            <p class="card-text">$180</p>
+                            <p class="card-rating">4.5 <span class="text-warning">★</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/sleeve.jpg" class="card-img-top" alt="Sleeve Striped T-shirt">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Sleeve Striped T-shirt</h5>
+                            <p class="card-text"><s>$160</s> $130 <span class="discount-box">30% off</span></p>
+                            <p class="card-rating">4.5 <span class="text-warning">★</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-custom">View All</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Selling Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">TOP SELLING</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/vertical.jpg" class="card-img-top" alt="Vertical Striped Shirt">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Vertical Striped Shirt</h5>
+                            <p class="card-text"><s>$232</s> $212 <span class="discount-box">20% off</span></p>
+                            <p class="card-rating">5.0 <span class="text-warning">★</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/courage.jpg" class="card-img-top" alt="Courage Graphic T-shirt">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Courage Graphic T-shirt</h5>
+                            <p class="card-text">$145</p>
+                            <p class="card-rating">4.0 <span class="text-warning">★</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/loose.jpg" class="card-img-top" alt="Loose Fit Bermuda Shorts">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Loose Fit Bermuda Shorts</h5>
+                            <p class="card-text">$80</p>
+                            <p class="card-rating">3.0 <span class="text-warning">★</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/faded.jpg" class="card-img-top" alt="Faded Skinny Jeans">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Faded Skinny Jeans</h5>
+                            <p class="card-text">$210</p>
+                            <p class="card-rating">4.5 <span class="text-warning">★</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#" class="btn btn-custom">View All</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4">
+        <p>&copy; 2023 SHOP.CO. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        <div class="social-icons">
+            <a href="#"><img src="icons/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="icons/twitter.png" alt="Twitter"></a>
+            <a href="#"><img src="icons/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>

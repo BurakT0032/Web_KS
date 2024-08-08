@@ -1,5 +1,5 @@
 body {
-    font-family: myFirstFont; 
+    font-family: sans-serif; 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -27,19 +27,23 @@ h1, h2, h3, h4, h5, h6, p, a, span, .card-title, .card-text, .stat-title, .stat-
 
   .bottom-navbar {
     padding: 10px 0;
+    overflow: hidden;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px
+}
+.navbar img{
+    max-height: 50px;
 }
 
 .navbar-nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100%; 
+    flex-direction: row;
 }
 
 .navbar-nav .nav-item {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    flex-grow: 1; /* Eşit genişlikte olmasını sağlar */
+    padding-right: 20px;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -179,3 +183,35 @@ footer .social-icons img {
 }
 
 
+
+
+
+
+
+
+
+.spacer {
+    display: inline-block;
+    width: 10px; /* Boşluğun genişliğini ayarlayın */
+}
+
+.logo-spacing {
+    margin-left: 50px; /* İstediğiniz boşluk miktarını buraya yazın */
+}
+
+.navbar-words {
+    margin-left: 20px;
+}
+
+.input-words {
+    margin-left: 100px;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.input-group-text {
+    background-color: white;
+    border: none;
+}

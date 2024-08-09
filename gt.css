@@ -1,5 +1,5 @@
 body {
-    font-family: sans-serif; 
+    font-family: myFont; 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,32 +7,40 @@ body {
     color: #000;
 }
 
-h1, h2, h3, h4, h5, h6, p, a, span, .card-title, .card-text, .stat-title, .stat-text, .navbar-brand, .navbar-nav .nav-link, .btn {
-    font-weight: bold; /* Tüm başlıklar, paragraflar, bağlantılar ve butonlar için kalın yazı */
-}
+
 .hero-section{
     background-color: #f2f0f1;
+    
 }
+.hero-image {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end; 
+    height: 100%;
+}
+@font-face {
+    font-family: myFont;
+    src: url(fonts/Satoshi-Black.otf);
+}
+
+
 .navbar-section{
     background-color: #000;
 }
-@font-face {
-    font-family: myFirstFont;
-    src: url(fonts/LuckiestGuy-Regular.ttf);
-  }
-  
-  div {
-    font-family: myFirstFont;
-  }
 
-  .bottom-navbar {
+
+div {
+    font-family: myFont;
+}
+
+.bottom-navbar {
     padding: 10px 0;
     overflow: hidden;
     background-color: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 50px
+    padding: 10px 50px;
 }
 .navbar img{
     max-height: 50px;
@@ -129,8 +137,9 @@ footer .social-icons img {
     margin-left: 0; 
 }
 
-.card {
+.card_arrivals {
     margin-bottom: 20px;
+    border: 0;
 }
 
 .card-img-top {
@@ -161,13 +170,15 @@ footer .social-icons img {
 
 .discount-box {
     display: inline-block;
-    padding: 2px 5px;
+    padding: 5px 16px;
     margin-left: 5px;
     font-size: 0.9rem;
-    color: #fff;
-    background-color: #ff0000;
-    border-radius: 5px;
+    color: #ff3333;
+    background-color: #ff333318;
+    border-radius: 15px;
     font-weight: bold;
+    padding-bottom: 2px;
+    padding-top: 5px;
 }
 
 .btn-custom {
@@ -183,9 +194,14 @@ footer .social-icons img {
 }
 
 
+.discount_font_color{
+color: #0000003a;
+}
 
-
-
+.product{
+padding-right: 120px;
+padding-left: 120px;
+}
 
 
 
@@ -215,3 +231,123 @@ footer .social-icons img {
     background-color: white;
     border: none;
 }
+.imgfont{
+    font-size: x-large;
+}
+
+.container_button {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.view-all-btn {
+    background-color: white;
+    border: 1px solid #ddd; /* Hafif bir gri sınır */
+    border-radius: 25px; /* Yuvarlak köşeler */
+    padding: 10px 70px; /* Butonun içine boşluk ekler */
+    font-size: 1rem; /* Yazı boyutu */
+    color: black; /* Yazı rengi */
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti */
+}
+
+.view-all-btn:hover {
+    background-color: #f0f0f0; 
+
+}
+
+.dress_style{
+    background-color: #f2f0f1;
+    border-radius: 40px;
+    padding: 10px;
+    justify-content: center;
+
+}
+.dress_style_left_images{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.dress_style_right_images{
+    margin-left: 100px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.arrow_images{
+    align-items: right;
+    justify-content: right;
+}
+.footer_offers {
+    width: 100%; /* Tüm genişliği kaplasın */
+    height: auto;
+    border-radius: 0; /* Kenar yuvarlamayı kaldırın */
+    background-color: #000;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -40px; /* Bu, bölümleri birbirine yakınlaştırır */
+}
+
+.footer_h1, .footer_h1_2 {
+    color: white;
+    text-align: left;
+    margin: 0;
+}
+
+.newsletter-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+}
+
+.newsletter-input {
+    padding: 10px 20px 10px 50px; 
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;  
+    width: 350px;  
+    box-sizing: border-box;
+    background-image: url(images/mailbox.png); 
+    background-position: 10px center;  
+    background-repeat: no-repeat;
+}
+
+.newsletter-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    width: 100%;  /* Butonu tam genişlik yapar */
+    box-sizing: border-box;  /* Padding ile birlikte genişliği tam olarak ayarlar */
+}
+.icon_img{
+    margin-right: 10px;
+}
+
+.footer-row {
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-between;
+margin-top: 20px; /* Üst kısmı biraz daha aşağıya çekin */
+}
+
+.footer-col {
+    flex: 1;
+    max-width: 20%;
+}
+
+.footer_style {
+    background-color: #f2f0f1;
+    padding: 50px 10px 10px 10px;
+    justify-content: center;
+}
+
+

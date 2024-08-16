@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website Template</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-dark text-white-50 justify-content-center">
+        Sign up and get 20% off to your first order.
+        <span class="spacer"></span>
+        <u><a href="#sign" class="link-light">Sign up now</a></u>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand logo-spacing" href="#shop" alt="shop.co">
+            <img src="images/shopco.jpg" class="img-fluid" alt="logo" style="width:max-content;">
+        </a>
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle bg-white text-dark border-0" data-bs-toggle="dropdown">Shop</button>
+        </div>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link navbar-words" href="javascript:void(0)">On Sale</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navbar-words" href="javascript:void(0)">New Arrivals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navbar-words" href="javascript:void(0)">Brands</a>
+                </li>
+            </ul>
+            <form class="d-flex flex-grow-1 mx-2">
+                <div class="input-group">
+                    <span class="input-group-text bg-white border-0" id="basic-addon1">
+                        <img src="images/search.png"class="img-fluid" width="30px">
+                    </span>
+                    <input type="text" class="form-control border-0" placeholder="Search for products..." aria-label="Search" aria-describedby="basic-addon1">
+                </div>
+            </form>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+    
+    <div class="container mb-5">
+        <div class="my-3"><img src="images_cat/line-2.png" class="img-fluid" alt="" style="width: 1280px;">
+        <p class="my-3"><span style="color: grey;">Home</span><img src="images_cat/right.png"  class="mx-2 img-fluid">
+            <span style="color:grey">Shop<img src="images_cat/right.png" class="mx-2 img-fluid" ></span>
+            <span style="color:grey">Men<img src="images_cat/right.png" class="mx-2 img-fluid"></span>T-shirts</p>
+    </div>
+    </div>
+
+
+    <div class="container">
+        
+        
+        <div class="row mb-5" >
+
+        <div class="col-md-2">
+            <img src="images_prod/t-shirt1.png" class="mb-3 img-fluid">
+            <img src="images_prod/t-shirt2.png"class="mb-3 img-fluid">
+            <img src="images_prod/t-shirt3.png" class=" img-fluid">
+        </div>
+        
+        <div class="col-md-4" >
+            <img src="images_prod/t-shirt4.png" class=" img-fluid" style="margin-left: -50px;">
+        </div>
+
+        <div class="col-md-6">
+            <h1 >ONE LIFE GRAPHIC T-SHIRT</h1>
+            <img src="images_prod/4.5.png" class="mb-4 img-fluid">
+            <h2 style="margin-top: -8px;">$260<s class="discount_font_color mx-3">$300</s><span class="discount-box">-40% </span></h2>
+            <p style="color: hsla(0, 0%, 0%, 0.601);">This graphic t-shirt which is perfect for any occasion. Crafted from a soft and
+                breathable fabric, it offers superior comfort and Style.</p>
+            <img src="images_prod/line.png" style="width: 590px; margin-bottom: 20px;"class="mb-4 img-fluid">
+            <h5 style="color: hsla(0, 0%, 0%, 0.601);" class="mb-3">Select Colors</h5>
+            <div class="mb-3">
+            <img src="images_prod/brown.png" style="margin-right: 15px;"class="mb-4 img-fluid"> 
+            <img src="images_prod/ltblue.png"style="margin-right: 15px;"class="mb-4 img-fluid">
+            <img src="images_prod/green.png"class="mb-4 img-fluid">
+            </div>
+            <img src="images_prod/line.png" style="width: 590px; margin-bottom: 20px;"class="mb-4 img-fluid">
+            <h5 style="color: hsla(0, 0%, 0%, 0.601);">Choose Size</h5>
+            <div class="mb-3">
+                <button class="size-btn">Small</button>
+                <button class="size-btn">Medium</button>
+                <button class="size-btn-black">Large</button>
+                <button class="size-btn">X-Large</button>
+            </div>
+            <img src="images_prod/line.png" style="width: 590px; margin-bottom: 20px;"class="mb-4 img-fluid">
+           
+          
+            <div class="button-container">
+                <div class="quantity-container">
+                    <button class="quantity-btn" id="deleteBtn">-</button>
+                    <span class="quantity-value" id="quantityText">1</span>
+                    <button class="quantity-btn" id="addBtn">+</button>
+                </div>
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+            
+            
+
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-md-4"><p class="text-center" style="font-size: 20px;color:hsla(0, 0%, 0%, 0.60);">Product Details</p>
+            <img src="images_prod/line.png" style="color: hsla(0, 0%, 0%, 0.1); width: 1240px; height: 0.5px;" class="mb-4">
+        </div>
+        <div class="col-md-4"><p class="text-center" style="font-size: 20px;color:hsla(0, 0%, 0%, 1);">Rating & Reviews</p>
+            <img src="images_prod/blackline.png" style="width: 414px;height: 0.75px;" class="mb-4"></div>
+        <div class="col-md-4"><p class="text-center" style="font-size: 20px;color:hsla(0, 0%, 0%, 0.60);">FAQs</p>
+        </div>
+        
+    </div>
+   
+    <div class="row my-5">
+        <div class="col-md-4"><span style="font-size: 24px; margin-right: 10px;">ALL REVIEWS</span><span style="color: hsla(0, 0%, 0%, 0.6); font-size: 16px;">(451)</span> </div>
+        <div class="col-md-8 d-flex justify-content-end"> 
+            
+            <img src="images_prod/settings.png" alt="">
+            <button class="size-btn" style="width: 120px; height: 48px; color: black;">Latest <img src="images_prod/down.png" alt=""></button>
+        
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="row my-5">
+        <div class="col-md-6">
+            <div class="card" style="padding: 24px 16px; width: 610px; height: 242px;">
+                <div class="card-body ">
+                    <div>
+                    <img src="images_prod/4.5star.png" class="my-1">
+                    <img src="images_prod/3dot.png" class="float-end" alt="">
+                </div>
+                    <div class="card-title mb-3" style="font-size: 20px;">
+                        Samantha D.</div>
+                    <div class="card-text" style="font-size: 16px; color: hsla(0, 0%, 0%, 0.6);"><div class="mb-2">"I absolutely love this t-shirt! The design is unique and the fabric feels so
+                        comfortable. As a fellow designer, I appreciate the attention to detail. It's
+                        become my favorite go-to shirt.”</div><span>Posted on August 14, 2023</span></div>
+                    </div>
+                </div>
+
+                <div class="card my-4" style="padding: 24px 16px;width: 610px; height: 242px;">
+                    <div class="card-body ">
+                        <div>
+                        <img src="images_prod/3.5star.png" class="my-1">
+                        <img src="images_prod/3dot.png" class="float-end" alt="">
+                    </div>
+                        <div class="card-title mb-3" style="font-size: 20px;">
+                            Ethan R.</div>
+                        <div class="card-text" style="font-size: 16px; color: hsla(0, 0%, 0%, 0.6);"><div class="mb-2">"T his t-shirt is a must-have for anyone who appreciates good design. The
+                            minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can
+                            see the designer's touch in every aspect of this shirt.”</div><span>Posted on August 16, 2023</span></div>
+                        </div>
+                    </div>
+
+                    <div class="card" style="padding: 24px 16px;width: 610px; height: 242px;">
+                        <div class="card-body ">
+                            <div>
+                            <img src="images_prod/4star.png" class="my-2">
+                            <img src="images_prod/3dot.png" class="float-end" alt="">
+                        </div>
+                            <div class="card-title mb-3" style="font-size: 20px;">
+                                Liam K.</div>
+                            <div class="card-text" style="font-size: 16px; color: hsla(0, 0%, 0%, 0.6);"><div class="mb-2">"This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the
+                                design speaks volumes about the designer's skili. itis like wearing a piece
+                                of art that reflects my passion for both design and fashion."</div><span>Posted on August 18, 2023</span></div>
+                            </div>
+                        </div>
+
+
+
+
+
+            </div>
+
+
+
+            <div class="col-md-6">
+                <div class="card" style="padding: 24px 16px;width: 610px; height: 242px;">
+                    <div class="card-body ">
+                        <div>
+                        <img src="images_prod/4star.png" class="my-1">
+                        <img src="images_prod/3dot.png" class="float-end" alt="">
+                    </div>
+                        <div class="card-title" style="font-size: 20px;">
+                            Alex M.</div>
+                        <div class="card-text" style="font-size: 16px; color: hsla(0, 0%, 0%, 0.6);"><div class="mb-2">"The t-shirt exceeded my expectations! The colors are vibrant and the print
+                            quality is top-notch. Being a UI/UX designer myself, I'm quite picky about
+                            aesthetics, and this t-shirt definitely gets a thumbs up from me.”</div><span>Posted on August 15, 2023</span></div>
+                        </div>
+                    </div>
+
+
+                    <div class="card my-4" style="padding: 24px 16px;width: 610px; height: 242px;">
+                            <div class="card-body ">
+                                <div>
+                                <img src="images_prod/4star.png" class="my-1">
+                                <img src="images_prod/3dot.png" class="float-end" alt="">
+                            </div>
+                                <div class="card-title " style="font-size: 20px;">
+                                    Olivia P.</div>
+                                <div class="card-text" style="font-size: 16px; color: hsla(0, 0%, 0%, 0.6);"><div class="mb-2">"As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not
+                                    only represents those principles but also feels great to wear. It's evident
+                                    that the designer poured their creativity into making this t-shirt stand out.”</div><span>Posted on August 17, 2023</span></div>
+                                </div>
+                            </div>
+
+
+                            <div class="card" style="padding: 24px 16px;width: 610px; height: 242px;">
+                                <div class="card-body ">
+                                    <div>
+                                    <img src="images_prod/4.5star.png" class="my-1">
+                                    <img src="images_prod/3dot.png" class="float-end" alt="">
+                                </div>
+                                    <div class="card-title mb-3" style="font-size: 20px;">
+                                        Ava H.</div>
+                                    <div class="card-text" style="font-size: 16px; color: hsla(0, 0%, 0%, 0.6);"><div class="mb-2">"I'm not just wearing a t-shirt; I'm wearing a piece of design philosophy.
+                                        The intricate details and thoughtful layout of the design make this shirt a
+                                        conversation starter.”</div><span>Posted on August 19, 2023</span></div>
+                                    </div>
+                                </div>         
+                </div>
+        </div>
+
+        <div class="my-5 centered"><button class="more-btn">
+            Load More Reviews
+        </button></div>
+   
+        <div class="my-5"><span style="font-size: 48px; display:flex; justify-content: center;">YOU MIGHT ALSO LIKE</span></div>
+
+        <div class="row my-5">
+            <div class="col-md-3"><img src="images_prod/polo.png" alt="">
+            <div class="mt-3" style="font-size: 20px;">Polo with Contrast Trims</div>
+            <img src="images_prod/4.png" class="my-3" alt="">
+            <div style="font-size: 32px;">$212<s class="discount_font_color mx-3">$242</s><span class="discount-box">-20% </span></div>
+            </div>
+
+
+            <div class="col-md-3"><img src="images_prod/gradient.png" alt="">
+                <div class="mt-3" style="font-size: 20px;">Polo with Contrast Trims</div>
+                <img src="images_prod/3.5.png" class="my-3" alt="">
+                <div style="font-size: 32px;">$145</div>
+            </div>
+
+            <div class="col-md-3"><img src="images_prod/polo2.png" alt=""><div class="mt-3" style="font-size: 20px;">Polo with Contrast Trims</div>
+            <img src="images_prod/4.5.png" class="my-3" alt="">
+            <div style="font-size: 32px;">$180</div>
+        </div>
+
+
+            <div class="col-md-3"><img src="images_prod/striped.png" alt=""><div class="mt-3" style="font-size: 20px;">Polo with Contrast Trims</div>
+            <img src="images_prod/5.png" class="my-3" alt="">
+            <div style="font-size: 32px;">$120<s class="discount_font_color mx-3">$150</s><span class="discount-box">-30% </span></div></div>
+        </div>
+
+
+        <!-- container divi -->
+</div>
+
+        <!--Subscribe-->
+<div class="container-fluid footer_style">
+    <div class="container footer_offers d-flex align-items-center justify-content-between mb-3">
+        <div>
+            <h1 class="footer_h1 mx-5">STAY UPTO DATE ABOUT</h1><br>
+            <h1 class="footer_h1 mx-5">OUR LATEST OFFERS</h1>
+        </div>
+        <div class="newsletter-input-container mx-5">
+            <input type="email" class="newsletter-input" placeholder="Enter your email address">
+            <button class="newsletter-button">Subscribe to Newsletter</button>
+        </div>
+    </div>
+    <!--End of Subscribe-->
+
+    <div class="row footer-row my-5">
+        <div class="col-md-3 footer-col mx-5">
+            <img src="images/SHOP.CO.png" style="width: auto; margin-top: 15px; margin-bottom: 25px;">
+            <p>We have clothes that suits your style and
+                which you're proud to wear. From
+                women to men.</p>
+            <img src="images/tw.png" class="icon_img">
+            <img src="images/fb.png" class="icon_img">
+            <img src="images/ig.png" class="icon_img">
+            <img src="images/git.png">
+        </div>
+        <div class="col-md-2 mx-3 my-3 px-4 footer-col">
+            <h5 class="mb-4">COMPANY</h5>
+            <p class="mx-1">About</p>
+            <p class="mx-1">Features</p>
+            <p class="mx-1">Works</p>
+            <p class="mx-1">Career</p>
+        </div>
+        <div class="col-md-2 mx-3 my-3 px-4 footer-col">
+            <h5 class="mb-4">HELP</h5>
+            <p class="mx-1">Customer Support</p>
+            <p class="mx-1">Delivery Details</p>
+            <p class="mx-1">Terms & Conditions</p>
+            <p class="mx-1">Privacy Policy</p>
+        </div>
+        <div class="col-md-2 mx-3 my-3 px-4 footer-col">
+            <h5 class="mb-4">FAQ</h5>
+            <p class="mx-1">Account</p>
+            <p class="mx-1">Manage Deliveries</p>
+            <p class="mx-1">Orders</p>
+            <p class="mx-1">Payments</p>
+        </div>
+        <div class="col-md-2 mx-3 my-3 px-4 footer-col">
+            <h5 class="mb-4">RESOURCES</h5>
+            <p class="mx-1">Free eBooks</p>
+            <p class="mx-1">Development Tutorial</p>
+            <p class="mx-1">How to - Blog</p>
+            <p class="mx-1">Youtube Playlist</p>
+        </div>
+    </div>
+    <img src="images/line.png" style="display: block;
+    margin-left: auto;
+    margin-right: auto;">
+    <div>
+    <p style="margin-left: 128px;" class="my-4">Shop.co © 2000-2023, All Rights Reserved   
+        <img src="images/visa.png" style="position: absolute;right: 370px">
+        <img src="images/mc.png" style="position: absolute;right: 310px">
+        <img src="images/pp.png" style="position: absolute;right: 250px">
+        <img src="images/apay.png" style="position: absolute;right: 190px">
+        <img src="images/gpay.png" style="position: absolute;right: 130px"></p>
+  
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="product.js"></script>
+</body>
+
+</html>

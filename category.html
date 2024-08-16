@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website Template</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="category.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-sm bg-dark text-white-50 justify-content-center">
+        Sign up and get 20% off to your first order.
+        <span class="spacer"></span>
+        <u><a href="#sign" class="link-light">Sign up now</a></u>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand logo-spacing" href="#shop" alt="shop.co">
+            <img src="images/shopco.jpg" alt="logo" style="width:max-content;">
+        </a>
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle bg-white text-dark border-0" data-bs-toggle="dropdown">Shop</button>
+        </div>
+        <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link navbar-words" href="javascript:void(0)">On Sale</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navbar-words" href="javascript:void(0)">New Arrivals</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navbar-words" href="javascript:void(0)">Brands</a>
+                </li>
+            </ul>
+            <form class="d-flex flex-grow-1 mx-2">
+                <div class="input-group">
+                    <span class="input-group-text bg-white border-0" id="basic-addon1">
+                        <img src="images/search.png" width="30px">
+                    </span>
+                    <input type="text" class="form-control border-0" placeholder="Search for products..." aria-label="Search" aria-describedby="basic-addon1">
+                </div>
+            </form>
+        </div>
+    </nav>
+    <!-- End of Navbar -->
+    
+    <div class="container mb-5">
+        <div class="my-3"><img src="images_cat/line-2.png" alt="" style="width: 1280px;">
+        <p class="my-3"><span style="color: grey;">Home</span><img src="images_cat/right.png"> Casual</p>
+    </div>
+    </div>
+
+   
+
+
+<!-- 
+                                            Casual kısmı -->
+     
+    <div class="container " style="margin-bottom: 90px;">
+
+        <div class="row">
+            <div class="col-md-3">
+                <!-- Burada ilk sütunun içeriği yer alır -->
+            </div>
+        
+            <div class="col-md-9">
+                <span style="font-size: 2rem; padding: 20px;">Casual</span>
+                <span class="float-end"><p class="mt-3"><span style="color: grey;">1-10 of 100 Products&nbsp;&nbsp;&nbsp; Sort by:</span> Most Popular <img src="images_cat/down.png"></p> </span>
+            </div>
+          
+        </div>
+
+        
+        
+        <div class="row ">
+            <div class="col-md-3 cat-col col-border">
+                <h4>Filters <a href=""><img src="images_cat/settings.png" class="float-end centered-img"></a></h4>
+                <img src="images_cat/line.png" class="my-3 img-fluid" style="width: 280px;" alt="line">
+                <div class="cat-text">T-shirts<a href=""> <img src="images_cat/right.png" class="float-end"></a></div>
+                <div class="cat-text">Shorts <a href=""><img src="images_cat/right.png" class="float-end"></a></div>
+                <div class="cat-text">Shirts <a href=""><img src="images_cat/right.png" class="float-end"></a></div>
+                <div class="cat-text">Hoodie <a href=""><img src="images_cat/right.png" class="float-end"></a></div>
+                <div class="cat-text">Jeans <a href=""><img src="images_cat/right.png" class="float-end"></a></div>
+                <img src="images_cat/line.png" class="my-4 img-fluid" style="width: 280px;" alt="line">
+                <div class="my-3">
+                    <h4 class="mb-5">Price <a href=""><img src="images_cat/up.png" class="float-end centered-img"></a></h4>
+                    
+                    
+                    
+                    <div class="price-filter">
+                        <div class="slider-container">
+                            <input type="range" min="0" max="250" value="50" id="min-price" class="slider">
+                            <input type="range" min="0" max="250" value="200" id="max-price" class="slider">
+                            <div class="slider-track"></div>
+                        </div>
+                        <div class="price-values my-3">
+                            <span id="min-price-value">$50</span>
+                            <span id="max-price-value">$200</span>
+                        </div>
+                    </div>
+
+
+                    <img src="images_cat/line.png" class="my-4 img-fluid" style="width: 280px;" alt="line">
+                    
+                        <h4>Colors <a href=""><img src="images_cat/up.png" class="float-end centered-img"></a></h4>
+                        <div class="container my-3 mx-2">
+                                <button class="colorful-button" style="background-color: rgb(61, 255, 47);"></button>
+                            
+                            
+                                <button class="colorful-button" style="background-color: rgb(255, 47, 47);"></button>
+                      
+                       
+                                <button class="colorful-button" style="background-color: rgb(234, 255, 47);"></button>
+                        
+                       
+                                <button class="colorful-button" style="background-color: rgb(255, 147, 47);"></button>
+                          
+                          
+                                <button class="colorful-button" style="background-color: rgb(47, 231, 255);"></button>
+                            </div>
+                       
+                        <div class="container mx-2">
+                                <button class="colorful-button" style="background-color: rgb(57, 47, 255);"></button>
+                         
+                            
+                                <button class="colorful-button" style="background-color: rgb(213, 47, 255);"></button>
+                          
+                            
+                                <button class="colorful-button" style="background-color: rgb(255, 47, 196);"></button>
+                           
+                            
+                                <button class="colorful-button" style="background-color: rgb(255, 255, 255);"></button>
+                            
+                            
+                                <button class="colorful-button" style="background-color: rgb(0, 0, 0);"></button>
+                        </div>
+                    
+                    
+                        <img src="images_cat/line.png" class="img-fluid" style="width: 280px;" alt="line">
+                    <div class="my-3">
+                        <h4>Size <a href=""><img src="images_cat/up.png" class="float-end centered-img"> </a></h4><br>
+                        <div class="container my-3">
+                            <button class="size-btn">XX-Small</button>
+                            <button class=" size-btn">X-Small</button>
+                        </div>
+                        <div class="container my-3">
+                            <button class=" size-btn">Small</button>
+                            <button class=" size-btn">Medium</button>
+                        </div>
+                        <div class="container my-3">
+                            <button class=" size-btn">Large</button>
+                            <button class=" size-btn">X-Large</button>
+                        </div>
+                        <div class="container my-3">
+                            <button class="size-btn">XX-Large</button>
+                            <button class=" size-btn">3X-Large</button>
+                        </div>
+                        <div class="container my-3">
+                            <button class="size-btn">4X-Large</button>
+                        </div>
+                    </div>
+                    <img src="images_cat/line.png" class="img-fluid" style="width: 280px;" alt="line">
+                    <div class="my-3">
+                        <h4>Dress Style <a href=""><img src="images_cat/up.png" class="float-end centered-img"></a></h4>
+                        <div class="cat-text">Casual <a href=""><img src="images_cat/right.png" class="float-end"></a></div>
+                        <div class="cat-text">Formal <a href=""><img src="images_cat/right.png" class="float-end"></a></div>
+                        <div class="cat-text">Party <a href=""><img src="images_cat/right.png" class="float-end"></a></div>
+                        <div class="cat-text">Gym <a href=""><img src="images_cat/right.png" class="float-end"></a></div>
+                    </div>
+                    <button class="apply-button">Apply Filter</button>
+                </div>
+            </div>
+
+            
+            
+            
+
+
+            <div class="col-md-3 cat-col">
+            <div class="mt-5">
+                <img src="images_cat/t-shirt-1.png" class="img-fluid">
+                <h5 class="mt-3">Gradient Graphic T-shirt</h5>
+                <img src="images_cat/3.5.png" class="py-2 img-fluid">
+                <h3>$120</h3>
+            </div>
+
+            <div class="mt-5">
+                <img src="images_cat/jeans.png" class="img-fluid">
+                <h5 class="mt-3">Skinny Fit Jeans</h5>
+                <img src="images_cat/3.5.png" class="py-2 img-fluid">
+                <h3 style="margin-top: -8px;">$240<s class="discount_font_color mx-3">$260</s><span class="discount-box">-20% </span></h3>
+            </div>
+            
+            <div class="mt-5">
+                <img src="images_cat/shirt-1.png" class="img-fluid" style="border-radius: 20px;">
+                <h5 class="mt-3">Vertical Striped Shirt</h5>
+                <img src="images_cat/5.png" class="py-2 img-fluid">
+                <h3>$212<s class="discount_font_color mx-3">$232</s><span class="discount-box">-20% </span></h3>
+            </div>
+
+
+            </div>
+
+
+            <div class="col-md-3 cat-col">
+                <div class="mt-5">
+                    <img src="images_cat/t-shirt-2.png" class="img-fluid">
+                    <h5 class="mt-3">Polo with Tipping Details</h5>
+                    <img src="images_cat/4.5.png" class="py-2 img-fluid">
+                    <h3>$180</h3>
+                </div>
+    
+                <div class="mt-5">
+                    <img src="images_cat/shirt-2.png" class="img-fluid">
+                    <h5 class="mt-3">Checkered Shirt</h5>
+                    <img src="images_cat/4.5.png" class="py-2 img-fluid">
+                    <h3>$180</h3>
+                </div>
+                
+                <div class="mt-5">
+                    <img src="images_cat/t-shirt-3.png" class="img-fluid">
+                    <h5 class="mt-3">Courage Graphic T-shirt</h5>
+                    <img src="images_cat/4.png" class="py-2 img-fluid">
+                    <h3>$145</h3>
+                </div>
+            </div>
+
+
+
+            
+            <div class="col-md-3 cat-col">
+                <div class="mt-5">
+                    <img src="images_cat/t-shirt-4.png" class="img-fluid">
+                    <h5 class="mt-3">Polo with Tipping Details</h5>
+                    <img src="images_cat/5.png" class="py-2 img-fluid">
+                    <h3 style="margin-top: -8px;">$120<s class="discount_font_color mx-3">$150</s><span class="discount-box">-30% </span></h3>
+                </div>
+    
+                <div class="mt-5">
+                    <img src="images_cat/t-shirt-5.png" class="img-fluid">
+                    <h5 class="mt-3">Checkered Shirt</h5>
+                    <img src="images_cat/4.5.png" class="py-2 img-fluid">
+                    <h3 style="margin-top: -8px;">$130<s class="discount_font_color mx-3">$160</s><span class="discount-box">-30% </span></h3>
+                </div>
+                
+                <div class="mt-5">
+                    <img src="images_cat/shorts.png" class="img-fluid">
+                    <h5 class="mt-3">Courage Graphic T-shirt</h5>
+                    <img src="images_cat/3.png" class="py-2 img-fluid">
+                    <h3>$145</h3>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-3">
+                <!-- Burada ilk sütunun içeriği yer alır -->
+            </div>
+        
+            <div class="col-md-9">
+                <div class="mb-3"><img src="images_cat/line-2.png" style="width: 965px;"></div>
+                <div class="button-container">
+                    <button class="my-3 page-btn"><img src="images_cat/leftarrow.png">&nbsp;Previous</button>
+                    <div class="center-buttons">
+                        <button class="my-3 center-btn page-btn" style="background-color: #0000000b;">1</button>
+                        <button class="my-3 center-btn page-btn">2</button>
+                        <button class="my-3 center-btn page-btn">3</button>
+                        <button class="my-3 center-btn page-btn">...</button>
+                        <button class="my-3 center-btn page-btn">8</button>
+                        <button class="my-3 center-btn page-btn">9</button>
+                        <button class="my-3 center-btn page-btn">10</button>
+                    </div>
+                    <button class="my-3 page-btn">Next&nbsp;<img src="images_cat/rightarrow.png"></button>
+                </div>
+                
+
+            </div>
+          
+        </div>
+
+    </div>
+
+
+
+<!--Subscribe-->
+<div class="container-fluid footer_style">
+    <div class="container footer_offers d-flex align-items-center justify-content-between mb-3">
+        <div>
+            <h1 class="footer_h1 mx-5">STAY UPTO DATE ABOUT</h1><br>
+            <h1 class="footer_h1 mx-5">OUR LATEST OFFERS</h1>
+        </div>
+        <div class="newsletter-input-container mx-5">
+            <input type="email" class="newsletter-input" placeholder="Enter your email address">
+            <button class="newsletter-button">Subscribe to Newsletter</button>
+        </div>
+    </div>
+    <!--End of Subscribe-->
+
+    <div class="row footer-row my-5">
+        <div class="col-md-3 footer-col mx-5">
+            <img src="images/SHOP.CO.png" style="width: auto; margin-top: 15px; margin-bottom: 25px;">
+            <p>We have clothes that suits your style and
+                which you're proud to wear. From
+                women to men.</p>
+            <img src="images/tw.png" class="icon_img">
+            <img src="images/fb.png" class="icon_img">
+            <img src="images/ig.png" class="icon_img">
+            <img src="images/git.png">
+        </div>
+        <div class="col-md-2 mx-3 my-3 px-4 footer-col">
+            <h5 class="mb-4">COMPANY</h5>
+            <p class="mx-1">About</p>
+            <p class="mx-1">Features</p>
+            <p class="mx-1">Works</p>
+            <p class="mx-1">Career</p>
+        </div>
+        <div class="col-md-2 mx-3 my-3 px-4 footer-col">
+            <h5 class="mb-4">HELP</h5>
+            <p class="mx-1">Customer Support</p>
+            <p class="mx-1">Delivery Details</p>
+            <p class="mx-1">Terms & Conditions</p>
+            <p class="mx-1">Privacy Policy</p>
+        </div>
+        <div class="col-md-2 mx-3 my-3 px-4 footer-col">
+            <h5 class="mb-4">FAQ</h5>
+            <p class="mx-1">Account</p>
+            <p class="mx-1">Manage Deliveries</p>
+            <p class="mx-1">Orders</p>
+            <p class="mx-1">Payments</p>
+        </div>
+        <div class="col-md-2 mx-3 my-3 px-4 footer-col">
+            <h5 class="mb-4">RESOURCES</h5>
+            <p class="mx-1">Free eBooks</p>
+            <p class="mx-1">Development Tutorial</p>
+            <p class="mx-1">How to - Blog</p>
+            <p class="mx-1">Youtube Playlist</p>
+        </div>
+    </div>
+    <img src="images/line.png" style="display: block;
+    margin-left: auto;
+    margin-right: auto;">
+    <div>
+    <p style="margin-left: 128px;" class="my-4">Shop.co © 2000-2023, All Rights Reserved   
+        <img src="images/visa.png" style="position: absolute;right: 370px">
+        <img src="images/mc.png" style="position: absolute;right: 310px">
+        <img src="images/pp.png" style="position: absolute;right: 250px">
+        <img src="images/apay.png" style="position: absolute;right: 190px">
+        <img src="images/gpay.png" style="position: absolute;right: 130px"></p>
+  
+    </div>
+
+
+
+
+
+
+
+    <script src="category.js"></script>
+</body>
+
+</html>

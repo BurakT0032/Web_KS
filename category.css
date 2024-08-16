@@ -1,0 +1,270 @@
+body {
+    font-family: myFont; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 250, 250); 
+    color: #000;
+}
+@font-face {
+    font-family: myFont;
+    src: url(fonts/Satoshi-Black.otf);
+}
+
+.spacer {
+    display: inline-block;
+    width: 10px; /* Boşluğun genişliğini ayarlayın */
+}
+
+.logo-spacing {
+    margin-left: 50px; /* İstediğiniz boşluk miktarını buraya yazın */
+}
+
+.navbar img{
+    max-height: 50px;
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+.navbar-nav .nav-item {
+    padding-right: 20px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.navbar-words {
+    margin-left: 20px;
+}
+.cat-text{
+    padding: 10px 15px;
+}
+
+.cat-col {
+        margin-bottom: 15px; /* Sütunların altına boşluk eklemek için */
+        transition: transform 0.3s ease;
+    }
+.cat-col img:hover {
+        transform: scale(1.1);
+    }
+
+.col-border{
+        border: 2px solid rgba(0, 0, 0, 0.114);
+        border-radius: 20px;
+        padding: 10px 20px;
+}
+
+.price-filter {
+    width: 300px;
+    margin: auto;
+}
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background-color: #ddd;
+    margin-top: 10px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 6px;
+    background: transparent;
+    position: absolute;
+    pointer-events: none;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+    pointer-events: all;
+    position: relative;
+    z-index: 2;
+}
+
+.slider-track {
+    position: absolute;
+    height: 6px;
+    background-color: black; /* Seçili Aralık için Siyah Renk */
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.colorful-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.123);
+    display: inline-block;
+    margin: 2px 3px;
+}
+
+.size-btn{
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease; 
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+.size-btn:active{
+    background-color: black;
+    color: white;
+}
+    
+.apply-button{
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    
+}
+
+    
+.centered-image {
+    max-width: 100%; /* İmajın taşmasını önlemek için */
+    height: auto; /* İmajın orantılı kalmasını sağlar */
+    text-align: center;
+}
+
+
+
+
+.price-values {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.price-values span {
+    white-space: nowrap; /* This prevents the text from wrapping to the next line */
+}
+
+
+
+
+
+
+
+
+
+.discount_font_color{
+    color: #0000003a;
+    }
+
+
+.discount-box {
+        padding: 8px 16px;
+        display: inline-block;
+        font-size: 0.9rem;
+        color: #ff3333;
+        background-color: #ff333318;
+        border-radius: 15px;
+        position: relative;
+        top: -5px;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between; /* Sağ ve sola hizalamayı sağlar */
+    align-items: center; /* Dikey hizalama (opsiyonel) */
+}
+
+.center-buttons {
+    display: flex;
+}
+
+.page-btn {
+    border-radius: 5px;
+    border-color: #0000001e;
+    width: 110px;
+    height: 36px;
+    background-color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.page-btn:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.center-btn {
+    border-radius: 5px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+
+
+
+.footer_style {
+    background-color: #f2f0f1;
+    padding: 50px 10px 10px 10px;
+    justify-content: center;
+}
+
+.footer_offers {
+    width: 100%; /* Tüm genişliği kaplasın */
+    height: auto;
+    border-radius: 0; /* Kenar yuvarlamayı kaldırın */
+    background-color: #000;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -40px; /* Bu, bölümleri birbirine yakınlaştırır */
+}
+
+.footer_h1 {
+    color: white;
+    text-align: left;
+    margin: 0;
+}
+
+
+.newsletter-input {
+    padding: 10px 20px 10px 50px; 
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;  
+    width: 350px;  
+    box-sizing: border-box;
+    background-image: url(images/mailbox.png); 
+    background-position: 10px center;  
+    background-repeat: no-repeat;
+}
+
+.newsletter-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    width: 100%;  
+    box-sizing: border-box;  /* Padding ile birlikte genişliği tam olarak ayarlar */
+}
+
+.newsletter-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  
+}
+.footer-col {
+    flex: 1;
+    max-width: 20%;
+}

@@ -268,3 +268,50 @@ body {
     flex: 1;
     max-width: 20%;
 }
+
+@media screen and (max-width: 391px) {
+
+
+    body {
+        font-family: myFont; 
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        box-sizing: border-box;
+        background-color: rgb(255, 250, 250); 
+        color: #000;
+        max-width: 391px;
+    }
+    .apply-button {
+        color: white;
+        background-color: black;
+        padding: 16px 54px;
+        width: 353px;
+        height: 48px;
+        border-radius: 62px;
+    }
+
+    .colorful-button {
+        height: 37px;
+        width: 37px;
+        border-radius: 50px;
+        border: 2px solid rgba(0, 0, 0, 0.2);
+        display: inline-block;
+        margin: 2px 3px;
+    }
+
+    .size-btn {
+        background-color: #f0f0f0;
+        width: 98px;
+        height: 39px;
+        border-radius: 62px;
+        padding: 20px 10px;
+        transition: background-color 0.3s ease; 
+        border: 2px solid rgba(0, 0, 0, 0);
+    }
+
+    .mednav{
+        width: 390px;
+        height: 34px;
+    }
+}
